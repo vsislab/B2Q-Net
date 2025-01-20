@@ -3,7 +3,7 @@
 This repository contains the code for B2Q-Net: Bidirectional Branch Query Network for Online Surgical Phase Recognition.
 
 ## Overview
-![Overview](./assets/DBR-TAD.png)
+![Overview](./assets/Overview.png)
 
 ## Installation
 The project was modified from [BNpitfalls]([https://github.com/happyharrycn/actionformer_release/tree/main](https://gitlab.com/nct_tso_public/pitfalls_bn)), thanks for their wonderful work!

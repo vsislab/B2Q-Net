@@ -6,7 +6,7 @@ This repository contains the code for B2Q-Net: Bidirectional Branch Query Networ
 ![Overview](./assets/Overview.png)
 
 ## Installation
-The project was modified from [BNpitfalls]([https://github.com/happyharrycn/actionformer_release/tree/main](https://gitlab.com/nct_tso_public/pitfalls_bn)), thanks for their wonderful work!
+The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pitfalls_bn), thanks for their wonderful work!
 
 + Recommended Environment: python 3.9, Cuda11.6, PyTorch 1.12.0
 + Install dependencies: `pip install  -r requirements.txt`

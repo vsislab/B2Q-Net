@@ -16,7 +16,7 @@ The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pit
 ### Step 1:
 
 <details>
-<summary>Download the Cholec80, M2CAI16, AutoLaparo</summary>
+<summary>Download Cholec80, M2CAI16 and AutoLaparo datasets</summary>
 
 - Access can be requested [Cholec80](http://camma.u-strasbg.fr/datasets), [M2CAI16](http://camma.u-strasbg.fr/datasets), [AutoLaparo](https://autolaparo.github.io/).
 - Download the videos for each datasets and extract frames at 1fps. E.g. for `video01.mp4` with ffmpeg, run:

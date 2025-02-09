@@ -46,7 +46,7 @@ with open(model.log_path, "w") as log_file:
 		for _,op in tqdm(train_set):
 
 			if not opts.image_based:
-				if opts.head == 'SCOPE':
+				if opts.head == 'B2Q-Net':
 					model.net.temporal_head.reset()
 					model.net.temporal_head.block_list[0].frame_branch.reset()
 				else:
@@ -57,7 +57,7 @@ with open(model.log_path, "w") as log_file:
 			for i, (data, target) in enumerate(op):
 
 				if not opts.image_based and opts.shuffle:
-					if opts.head == 'SCOPE':
+					if opts.head == 'B2Q-Net':
 						model.net.temporal_head.reset()
 						model.net.temporal_head.block_list[0].frame_branch.reset()
 					else:
@@ -99,7 +99,7 @@ with open(model.log_path, "w") as log_file:
 				for _,op in eval_set:
 
 					if not opts.image_based:
-						if opts.head == 'SCOPE':
+						if opts.head == 'B2Q-Net':
 							model.net.temporal_head.reset()
 							model.net.temporal_head.block_list[0].frame_branch.reset()
 						else:

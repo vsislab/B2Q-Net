@@ -15,7 +15,7 @@ Check out the [Competition Ranking](https://tianchi.aliyun.com/competition/entra
 - [ ] Release AutoLaparo dataset code and checkpoint.
 - [ ] Release APTOS Big Data Competition.
 
-## Installation
+## ⚙️ Installation
 The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pitfalls_bn), thanks to their wonderful work!
 
 ### 💻 Recommended Environment:

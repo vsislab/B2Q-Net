@@ -26,6 +26,7 @@ The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pit
 To install the required dependencies, simply run:
 ```bash
 pip install -r requirements.txt
+```
 
 ## 📦 Data Preparation
 

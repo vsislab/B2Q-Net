@@ -1,17 +1,33 @@
-# B2Q-Net
+# B2Q-Net 🚀
 
-This repository contains the code for B2Q-Net: Bidirectional Branch Query Network for Online Surgical Phase Recognition.
+This repository contains the code for **B2Q-Net**: Bidirectional Branch Query Network for **Online Surgical Phase Recognition**. This repository provides the implementation of our approach for surgical phase recognition, enabling real-time, efficient phase classification in surgical videos.
 
 ## Overview
 ![Overview](./assets/Overview.png)
 
+## 🏆 Achievements
+We're thrilled to announce that **B2Q-Net** secured **2nd place** in the prestigious **2025 APTOS Big Data Competition**! 🎉  
+Check out the [Competition Ranking](https://tianchi.aliyun.com/competition/entrance/532335/rankingList) to see our achievement! 🔝
+
+## 📋 TODO List
+- [ ] Release Cholec80 dataset code and checkpoint.
+- [x] Release M2CAI16 dataset code and checkpoint.
+- [ ] Release AutoLaparo dataset code and checkpoint.
+- [ ] Release APTOS Big Data Competition.
+
 ## Installation
-The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pitfalls_bn), thanks for their wonderful work!
+The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pitfalls_bn), thanks to their wonderful work!
 
-+ Recommended Environment: python 3.9, Cuda11.6, PyTorch 1.12.0
-+ Install dependencies: `pip install  -r requirements.txt`
+### 💻 Recommended Environment:
+- Python 3.9
+- Cuda 11.6
+- PyTorch 1.12.0
 
-## Data Preparation
+To install the required dependencies, simply run:
+```bash
+pip install -r requirements.txt
+
+## 📦 Data Preparation
 
 ### Step 1:
 

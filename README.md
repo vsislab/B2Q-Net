@@ -7,8 +7,10 @@ This repository contains the code for **B2Q-Net**: Bidirectional Branch Query Ne
 
 ## 🏆 Achievements
 We're thrilled to announce that **B2Q-Net** secured **2nd place** in the prestigious **2025 APTOS Big Data Competition**! 🎉  
+
 Check out the [Competition Ranking](https://tianchi.aliyun.com/competition/entrance/532335/rankingList) to see our achievement! 🔝
-Check out [solution](https://github.com/wenjiezhang-z/APTOS5_Silver_Solution) to learn about our specific solution! 💡
+
+Check out the [solution](https://github.com/wenjiezhang-z/APTOS5_Silver_Solution) to learn about our specific solution! 💡
 
 ## 📋 TODO List
 - [ ] Release Cholec80 dataset code and checkpoint.

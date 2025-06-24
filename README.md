@@ -13,10 +13,10 @@ Check out the [Competition Ranking](https://tianchi.aliyun.com/competition/entra
 Check out the [solution](https://github.com/wenjiezhang-z/APTOS5_Silver_Solution) to learn about our specific solution! 💡
 
 ## 📋 TODO List
-- [ ] Release Cholec80 dataset code and checkpoint.
-- [x] Release M2CAI16 dataset code and checkpoint.
-- [ ] Release AutoLaparo dataset code and checkpoint.
-- [ ] Release APTOS Big Data Competition.
+- [ ] Release Cholec80 dataset training code and checkpoint.
+- [x] Release M2CAI16 dataset training code and checkpoint.
+- [ ] Release AutoLaparo dataset training code and checkpoint.
+- [ ] Release APTOS Big Data Competition-related codes.
 
 ## ⚙️ Installation
 The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pitfalls_bn), thanks to their wonderful work!

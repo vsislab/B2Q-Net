@@ -92,9 +92,9 @@ Cholec80/
 + We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./run.sh`
 
 ## Checkpoints
-We provide trained checkpoints for quick deployment.
+We provide trained models for quick deployment.
 
-[checkpoints](https://pan.baidu.com/s/1kbm9cK762qy1DAo4269Vcg?pwd=spfq)  (Extraction Code: spfq)
+[models](https://pan.baidu.com/s/1kbm9cK762qy1DAo4269Vcg?pwd=spfq)  (Extraction Code: spfq)
 
 
 

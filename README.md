@@ -91,10 +91,10 @@ Cholec80/
 ## Training and Testing
 + We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./run.sh`
 
-## Checkpoint
+## Checkpoints
 We provide trained checkpoints for quick deployment.
 
-[checkpoint](https://pan.baidu.com/s/1kbm9cK762qy1DAo4269Vcg?pwd=spfq)  (Extraction Code: spfq)
+[checkpoints](https://pan.baidu.com/s/1kbm9cK762qy1DAo4269Vcg?pwd=spfq)  (Extraction Code: spfq)
 
 
 

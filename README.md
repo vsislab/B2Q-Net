@@ -89,7 +89,15 @@ Cholec80/
 </details>
 
 ## Training and Testing
-+ We have provided a script list that allows you to replicate our results with just a single click. Further details can be found in `./run.sh`
++ We have provided a script list that allows you to replicate our results with just a single click.
+
+**Download Features and Annotations**
+| Dataset  | script|
+|:-----------:|:-----------:|
+| Cholec80 | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_cholec80/run.sh) | 
+| M2CAI16 | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_m2cai16/run.sh) | 
+| AutoLaparo | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_autolaparo/run.sh) | 
+
 
 ## Checkpoints
 We provide trained models for quick deployment.

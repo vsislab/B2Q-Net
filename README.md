@@ -12,12 +12,6 @@ Check out the [Competition Ranking](https://tianchi.aliyun.com/competition/entra
 
 Check out the [solution](https://github.com/wenjiezhang-z/APTOS5_Silver_Solution) to learn about our specific solution! 💡
 
-## 📋 TODO List
-- [x] Release Cholec80 dataset training code and checkpoint.
-- [x] Release M2CAI16 dataset training code and checkpoint.
-- [ ] Release AutoLaparo dataset training code and checkpoint.
-- [ ] Release APTOS Big Data Competition-related codes.
-
 ## ⚙️ Installation
 The project was modified from [BNpitfalls](https://gitlab.com/nct_tso_public/pitfalls_bn), thanks to their wonderful work!
 
@@ -81,9 +75,8 @@ Cholec80/
 ### Step 2: 
 
 <details>
-<summary>Download pretrained models (ConvNeXt-T and ConvNeXt V2-T)</summary>
+<summary>Download pretrained model (ConvNeXt V2-T)</summary>
 
-- download ConvNeXt-T [weights](https://dl.fbaipublicfiles.com/convnext/convnext_tiny_1k_224_ema.pth) and place here: `train_scripts/convnext/convnext_tiny_1k_224_ema.pth`
 - download ConvNeXt V2-T [weights](https://dl.fbaipublicfiles.com/convnext/convnextv2/im1k/convnextv2_tiny_1k_224_ema.pt) and place here: `train_scripts/convnext/convnextv2_tiny_1k_224_ema.pt`
 
 </details>
@@ -97,13 +90,6 @@ Cholec80/
 | Cholec80 | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_cholec80/run.sh) | 
 | M2CAI16 | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_m2cai16/run.sh) | 
 | AutoLaparo | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_autolaparo/run.sh) | 
-
-
-## Checkpoints
-We provide trained models for quick deployment.
-
-[models](https://pan.baidu.com/s/1kbm9cK762qy1DAo4269Vcg?pwd=spfq)  (Extraction Code: spfq)
-
 
 
 

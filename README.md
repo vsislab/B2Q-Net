@@ -91,4 +91,5 @@ python3 train.py phase --split cuhk4040 --bn_off --backbone convnextv2 --workers
 python3 save_predictions.py phase --split cuhk4040 --backbone convnextv2 --seq_len 256 --resume ../output/checkpoints/phase/[TRIAL_NAME]/models/checkpoint_best_acc.pth.tar --cfg configs/config.yaml
 ```
 
-
+## Contact
+Wenjie Zhang (zwjie@mail.sdu.edu.cn)

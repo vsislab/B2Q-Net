@@ -3,7 +3,7 @@
 This repository contains the code for **B2Q-Net**: Bidirectional Branch Query Network for **Online Surgical Phase Recognition**. This repository provides the implementation of our approach for surgical phase recognition, enabling real-time, efficient phase classification in surgical videos.
 
 ## Overview
-![Overview](./assets/Overview.png)
+![Overview](./assets/overview.png)
 
 ## 🏆 Achievements
 We're thrilled to announce that **B2Q-Net** secured **2nd place** in the prestigious **2025 APTOS Big Data Competition**! 🎉  

@@ -82,7 +82,7 @@ Cholec80/
 </details>
 
 **Training and Evaluation**
-* Train our B2Q-Net on the Cholec80 dataset. This will create an experiment folder under ./output to store training configurations, logs, and checkpoints.
+* Train our B2Q-Net on the Cholec80 dataset as an example. This will create an experiment folder under ./output to store training configurations, logs, and checkpoints.
 ```shell
 python3 train.py phase --split cuhk4040 --bn_off --backbone convnextv2 --workers 4 --freeze --seq_len 256 --lr 1e-4 --random_seed --trial_name TRIAL_NAME --cfg configs/config.yaml
 ```

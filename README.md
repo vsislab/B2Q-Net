@@ -81,15 +81,14 @@ Cholec80/
 
 </details>
 
-## Training and Testing
-+ We have provided a script list that allows you to replicate our results with just a single click.
-
-**Download Features and Annotations**
-| Dataset  | script|
-|:-----------:|:-----------:|
-| Cholec80 | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_cholec80/run.sh) | 
-| M2CAI16 | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_m2cai16/run.sh) | 
-| AutoLaparo | [run.sh](https://github.com/vsislab/B2Q-Net/blob/main/train_scripts_autolaparo/run.sh) | 
-
+**Training and Evaluation**
+* Train our B2Q-Net on the Cholec80 dataset. This will create an experiment folder under ./output to store training configurations, logs, and checkpoints.
+```shell
+python3 train.py phase --split cuhk4040 --bn_off --backbone convnextv2 --workers 4 --freeze --seq_len 256 --lr 1e-4 --random_seed --trial_name TRIAL_NAME --cfg configs/config.yaml
+```
+* Evaluate the trained model.
+```shell
+python3 save_predictions.py phase --split cuhk4040 --backbone convnextv2 --seq_len 256 --resume ../output/checkpoints/phase/[TRIAL_NAME]/models/checkpoint_best_acc.pth.tar --cfg configs/config.yaml
+```
 
 

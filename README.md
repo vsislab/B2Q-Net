@@ -41,7 +41,7 @@ ffmpeg -hide_banner -i /<PATH_TO_VIDEOS>/video01.mp4 -r 1 -start_number 0 /<PATH
 - The final dataset structure should look like this:
 
 ```
-Cholec80/
+B2Q-Net/
 	data/
 		frames_1fps/
 			01/
@@ -67,8 +67,6 @@ Cholec80/
 			video80-tool.txt
 	output/
 	train_scripts/
-	predict.sh
-	train.sh
 ```
 </details>
 

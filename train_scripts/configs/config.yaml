@@ -40,7 +40,7 @@ Bu:
   hid_dim: null
 B2Q_Net:
   block: iUU
-  cmr: 0.2
+  cmr: 0.3
   fpos: false
   ntoken: 60
   mtoken: 30
@@ -67,7 +67,7 @@ aux:
   print_every: 1000
   resume: max
   runid: 0
-  logdir: ./log/m2cai16/
+  logdir: ./log/cholec80/
   exp: exp1
 clip_grad_norm: 10.0
 dataset: m2cai16

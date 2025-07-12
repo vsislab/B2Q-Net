@@ -56,7 +56,7 @@ Loss:
 TM:
   inplace: true
   m: 5
-  p: 0.04
+  p: 0.03
   t: 30
   use: true
 aux:

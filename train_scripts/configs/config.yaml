@@ -70,7 +70,7 @@ aux:
   logdir: ./log/cholec80/
   exp: exp1
 clip_grad_norm: 10.0
-dataset: m2cai16
+dataset: cholec80
 momentum: 0.0
 split: split1
 sr: 1

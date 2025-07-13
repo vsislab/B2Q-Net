@@ -3,7 +3,7 @@ BU:
   a_dim: null
   a_ffdim: null
   a_layers: 1
-  a_nhead: 12
+  a_nhead: 8
   dropout: null
   f: m2
   f_dim: null
@@ -30,7 +30,7 @@ Bu:
   a_dim: null
   a_ffdim: null
   a_layers: 1
-  a_nhead: 12
+  a_nhead: 8
   dropout: null
   f: m2
   f_dim: null

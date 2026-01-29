@@ -1,6 +1,6 @@
 # B2Q-Net 🚀
 
-This repository contains the code for **B2Q-Net**: Bidirectional Branch Query Network for **Online Surgical Phase Recognition**.
+This repository contains the code for **B2Q-Net**: Bidirectional Branch Query Network for **Surgical Phase Recognition**.
 
 ## Overview
 ![Overview](./assets/overview.png)
